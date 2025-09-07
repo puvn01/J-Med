@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Med</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="../assets/images/Jmed_logo.svg" type="image/svg+xml">
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/contact.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo" aria-label="J-Med Home">
+            <img src="../assets/images/Jmed_logo.svg" alt="jmed">
+            <span>J-Med</span>
+        </a>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Products</a>
+            <a href="contact.html" class="active" >Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <div class="contact-hero-container">
+            <div class="contact-hero-content">
+                <h1>Get in Touch with<br>J-Med</h1>
+                <p>
+                    We're here to help! Whether you have a question about our products, need assistance with an order,
+                    or just want to provide feedback, please don't hesitate to reach out. Our dedicated team is ready to
+                    assist you.
+                </p>
+            </div>
+            <div class="contact-hero-image">
+                <img src="../assets/images/contact_support.jpg" alt="Contact Support">
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="contact-form-section">
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <p>
+                    Fill out the form below and we'll get back to you as soon as possible.
+                </p>
+                <form method="POST">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="John Doe" aria-required="true" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="john.doe@example.com" aria-required="true">
+
+                    <label for="contact">Contact Number</label>
+                    <input type="text" id="contact" placeholder="0311234567" aria-required="true">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Tell us how we can help you..." rows="4" aria-required="true"
+                        required></textarea>
+
+                    <button type="submit" class="btn-primary">
+                        <i class="fa-regular fa-paper-plane"></i> Submit Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="contact-faq-container">
+                <div class="contact-faq-list">
+                    <details>
+                        <summary>Do you have a physical store?</summary>
+                        <div>
+                            No - our store is entirely online for your convenience. You can purchase our items on Bob shop.
+                        </div>
+                    </details>
+                    <details>
+                        <summary>How can I order your products?</summary>
+                        <div>
+                            Visit our Bob shop page to browse and order our products easily online. [link here]
+                        </div>
+                    </details>
+                    <details>
+                        <summary>What if I have suggestions on a product?</summary>
+                        <div>
+                            That's great! We love hearing from our customers. Please use the contact form above to share your
+                            suggestions with us.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="../assets/images/Jmed_logo.svg" alt="jmed">
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4><a href="index.html">Home</a></h4>
+                </div>
+                <div>
+                    <h4><a href="#">About</a></h4>
+                </div>
+                <div>
+                    <h4><a href="#">Products</a></h4>
+                </div>
+                <div>
+                    <h4><a href="contact.html">Contact</a></h4>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 JMed Tradings. All rights reserved.</span>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i><span class="sr-only">Twitter</span></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i><span class="sr-only">Instagram</span></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
