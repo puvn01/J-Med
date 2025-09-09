@@ -46,6 +46,10 @@ body {
     color: #0097B2FF;
 }
 
+.header a{
+    text-decoration: none;
+}
+
 .header.shrink .logo img {
     width: 36px;
     height: 36px;
@@ -207,7 +211,16 @@ body {
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 8px;
+    text-decoration: none;
 }
+
+.footer-links h4 a, 
+.footer-links h4 a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 
 .footer-bottom {
     display: flex;
@@ -327,7 +340,7 @@ body {
 
 .contact-form-container form input,
 .contact-form-container form textarea {
-    width: 100%;
+    width: 98%;
     margin-bottom: 16px;
     padding: 10px;
     background: #181d21;
@@ -406,7 +419,7 @@ body {
 }
 
 .contact-faq-list summary::after {
-    content: '⮟'; /* Downward arrow */
+    content: '\25BC'; /* Downward arrow, Unicode U+2B9F ⮟*/
     position: absolute;
     right: 32px;
     top: 50%;
