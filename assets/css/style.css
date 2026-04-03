@@ -43,10 +43,10 @@ body {
     line-height: 25px;
     font-weight: 700;
     padding-left: 0.3em;
-    color: #0097B2FF;
+    color: #1aaed2ff;
 }
 
-.header a{
+.header a {
     text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ body {
 .nav a.active,
 .nav a:hover {
     opacity: 1;
-    color: #1cc6e3;
+    color: #18aacfff;
 }
 
 .hero {
@@ -102,7 +102,7 @@ body {
 }
 
 .btn-primary {
-    background: #1cc6e3;
+    background: #18aacfff;
     color: #fff;
     border: none;
     padding: 12px 32px;
@@ -114,7 +114,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: #17a2b8;
+    background: #129bc4ff;
 }
 
 .hero-image img {
@@ -164,7 +164,7 @@ body {
 
 .feature-item i {
     font-size: 2.2rem;
-    color: #1cc6e3;
+    color: #18aacfff;
     margin-bottom: 18px;
 }
 
@@ -214,7 +214,7 @@ body {
     text-decoration: none;
 }
 
-.footer-links h4 a, 
+.footer-links h4 a,
 .footer-links h4 a:visited {
     text-decoration: none;
     color: inherit;
@@ -239,7 +239,7 @@ body {
 }
 
 .footer-social a:hover {
-    color: #1cc6e3;
+    color: #18aacfff;
 }
 
 .footer-made {
@@ -250,7 +250,7 @@ body {
 }
 
 .footer-made a {
-    color: #1cc6e3;
+    color: #18aacfff;
     text-decoration: none;
 }
 
@@ -258,7 +258,7 @@ body {
 
 /* Contact Hero Section */
 .contact-hero {
-    background: #086b7b;
+    background: rgb(15, 119, 151);
     padding: 48px 0;
 }
 
@@ -363,24 +363,28 @@ body {
     border-radius: 12px;
     max-width: 900px;
     margin: 2rem auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
+
 .contact-faq h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
     color: #fff;
 }
+
 .contact-faq-container {
     max-width: 700px;
     margin: 0 auto;
 }
+
 .contact-faq-list {
     background: #23272b;
     border-radius: 12px;
     padding: 0;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
 }
+
 .contact-faq-list details {
     border-bottom: 1px solid #2c3136;
     padding: 0;
@@ -391,7 +395,8 @@ body {
     background: none;
 
 }
-.contact-faq-list details > div {
+
+.contact-faq-list details>div {
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 18px;
@@ -403,6 +408,7 @@ body {
 .contact-faq-list details:last-child {
     border-bottom: none;
 }
+
 .contact-faq-list summary {
     color: #fff;
     font-size: 1.1rem;
@@ -419,7 +425,8 @@ body {
 }
 
 .contact-faq-list summary::after {
-    content: '\25BC'; /* Downward arrow, Unicode U+2B9F ⮟*/
+    content: '\25BC';
+    /* Downward arrow, Unicode U+2B9F ⮟*/
     position: absolute;
     right: 32px;
     top: 50%;
@@ -436,6 +443,7 @@ body {
 .contact-faq-list details[open] summary {
     background: #23272b;
 }
+
 .contact-faq-list details[open] {
     background: #23272b;
 }
@@ -507,7 +515,7 @@ body {
     font-size: 1.1rem;
     list-style: none;
     padding: 0;
-    
+
 }
 
 .about-values ul li {
@@ -612,28 +620,37 @@ body {
         padding: 2rem 1rem 1rem 1rem;
         text-align: center;
     }
+
     .about-hero-content {
         max-width: 100%;
         padding: 0 12px;
     }
+
     .about-hero-content h1 {
         font-size: 1.6rem;
     }
+
     .about-hero-image img {
         width: 100%;
         max-width: 320px;
         height: auto;
         margin: 0 auto;
     }
-    .about-mission, .about-values {
+
+    .about-mission,
+    .about-values {
         padding: 2rem 1rem;
         max-width: 100%;
         border-radius: 8px;
     }
-    .about-mission h2, .about-values h2 {
+
+    .about-mission h2,
+    .about-values h2 {
         font-size: 1.2rem;
     }
-    .about-mission p, .about-values ul {
+
+    .about-mission p,
+    .about-values ul {
         font-size: 1rem;
     }
 
@@ -644,13 +661,16 @@ body {
         text-align: center;
         align-content: center;
     }
+
     .contact-hero-content {
         max-width: 100%;
         padding: 0 12px;
     }
+
     .contact-hero-content h1 {
         font-size: 1.6rem;
     }
+
     .contact-hero-image img {
         width: 100%;
         max-width: 320px;
@@ -659,27 +679,34 @@ body {
         text-align: center;
         align-content: center;
     }
+
     .contact-form-section {
         padding: 32px 0 24px 0;
     }
+
     .contact-form-container {
         max-width: 100%;
         padding: 24px 12px;
     }
+
     .contact-form-container h2 {
         font-size: 1.2rem;
     }
+
     .contact-form-container p {
         font-size: 1rem;
     }
+
     .contact-faq {
         padding: 24px 0;
         max-width: 100%;
         border-radius: 8px;
     }
+
     .contact-faq h2 {
         font-size: 1.2rem;
     }
+
     .contact-faq-list summary {
         padding: 18px 12px;
         font-size: 1rem;
@@ -702,19 +729,24 @@ body {
     .about-hero-content h1 {
         font-size: 1.2rem;
     }
-    .about-mission h2, .about-values h2 {
+
+    .about-mission h2,
+    .about-values h2 {
         font-size: 1rem;
     }
 
     .contact-hero-content h1 {
         font-size: 1.2rem;
     }
+
     .contact-form-container h2 {
         font-size: 1rem;
     }
+
     .contact-faq h2 {
         font-size: 1rem;
     }
+
     .contact-faq-list summary {
         padding: 12px 6px;
         font-size: 0.97rem;
