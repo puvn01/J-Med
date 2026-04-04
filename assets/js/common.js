@@ -1,6 +1,6 @@
 // Title scroll effect for all pages
 const originalTitle = document.title;
-const awayTitle = "👋 Come back to J-Med!";
+const awayTitle = "👋 Your health is waiting at J-Med!";
 let scrollInterval;
 let scrollIndex = 0;
 
