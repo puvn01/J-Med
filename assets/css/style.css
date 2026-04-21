@@ -355,6 +355,11 @@ body {
     margin-bottom: 24px;
 }
 
+.contact-form-container img {
+    width: 80%;
+    height: 80%;
+}
+
 /* FAQ Section */
 .contact-faq {
     background: #222;
